@@ -7,11 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    <button onclick="ShowSpinner()" class="Spinbtn" id="Spinbtn">spinner</button>
-    <button onclick="ShowBouncer()" class="Bouncebtn" id="Bouncebtn">bouncer</button>
-    <button onclick="Show()" class="Bouncebtn" id="Bouncebtn">bouncer</button>
-    <div class="spinner" id="spinner"></div>
-    <div class="bouncer" id="bouncer"></div>
+    <button onclick="ShowSpinner()" class="btn Spinbtn" id="Spinbtn">spinner</button>
+    <button onclick="ShowBouncer()" class="btn Bouncebtn" id="Bouncebtn">bouncer</button>
+    <button onclick="ShowBar()" class="btn Barbtn" id="Barbtn">bar</button>
+    <div class="divs spinner" id="spinner" onclick="loading()"></div>
+    <div class="divs bouncer" id="bouncer" onclick="loading()"></div>
+    <div class="divs bar" id="bar" onclick="loading()"></div>
     <script src="loader.js"></script>
 </body>
 </html>
