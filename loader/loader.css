@@ -1,6 +1,16 @@
-.loader{
-    height: 50px;
-    width: 50px;
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+}
+
+.spinner{
+    visibility: hidden;
+    height: 150px;
+    width: 150px;
     border-top:5px solid black;
     border:5px solid #3498db transparent;
     border-radius: 50%;
@@ -14,4 +24,27 @@
     to{
         transform: rotate(360deg);
     }
+}
+
+/*.bounce{
+    visibility: hidden;
+    height: 150px;
+    width: 150px;
+    border-radius: 50% ;
+    animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+    from{
+
+    }
+    to{
+        
+    }
+    
+}*/
+
+.Spinbtn{
+    position:absolute;
+    top: 30%;
 }
