@@ -22,6 +22,10 @@
 
 .one:hover{
     box-shadow: 5px 5px 0px red;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    color: brown;
 }
 
 .two:hover{
@@ -56,4 +60,14 @@ color: red;
     top: 5px;
     left: 5px;
     box-sizing: content-box;
+}
+
+
+.four:hover{
+   background-color: white;
+   cursor: crosshair;
+}
+
+.four:hover::after{
+    cursor: pointer;
 }
