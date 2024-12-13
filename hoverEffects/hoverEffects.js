@@ -1,1 +1,3 @@
-console.log("discovering that you dont need js for hove reffects");
+function what (){
+    alert("wassup honeyboo!");
+}
