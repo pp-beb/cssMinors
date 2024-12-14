@@ -7,7 +7,6 @@ A brief collection of my CSS minor-projects.
 - Understand web-dev better.
 
 ## Acknowledgement
-
 - **Internet**: To learn new commands that i have no ideas about.
 - **Friends**: To get project ideas and collaborate. 
 
