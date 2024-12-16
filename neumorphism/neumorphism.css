@@ -95,14 +95,12 @@ h3{
 .song2name{
     border-radius: 10px;
     margin: 10px;
-    border: solid black 1px;
     height: 40px;
     width: 200px;
 }
 
 .song3name{
     margin: 10px;
-    border: solid black 1px;
     height: 40px;
     width: 200px;
     border-radius: 10px;
@@ -110,7 +108,6 @@ h3{
 
 .song4name{
     margin: 10px;
-    border: solid black 1px;
     height: 40px;
     width: 200px;
     border-radius: 10px;
@@ -125,6 +122,57 @@ h3{
 }
 
 .song1name h5{
+    margin-left: 5px;
+    position: relative;
+     bottom: 20px;
+     font-size: xx-small;
+     font-style: italic;
+     color: #393a3e;
+ }
+
+ .song2name h4{
+    margin-left: 5px;
+   position: relative;
+    bottom: 13px;
+    font-size: small;
+    color: #7b7e84;
+}
+
+.song2name h5{
+    margin-left: 5px;
+    position: relative;
+     bottom: 20px;
+     font-size: xx-small;
+     font-style: italic;
+     color: #393a3e;
+ }
+
+ .song3name h4{
+    margin-left: 5px;
+   position: relative;
+    bottom: 13px;
+    font-size: small;
+    color: #7b7e84;
+}
+
+.song3name h5{
+    margin-left: 5px;
+    position: relative;
+     bottom: 20px;
+     font-size: xx-small;
+     font-style: italic;
+     color: #393a3e;
+ }
+
+ .song4name h4{
+    margin-left: 5px;
+   position: relative;
+    bottom: 13px;
+    font-size: small;
+    color: #7b7e84;
+}
+
+.song4name h5{
     margin-left: 5px;
     position: relative;
      bottom: 20px;
@@ -150,4 +198,39 @@ h3{
     top: 2px;
     left: 8px;
     color: #999fa9;
+}
+
+.song1name:hover, 
+.song2name:hover, 
+.song3name:hover, 
+.song4name:hover {
+    background-color: #a4b7ef;
+    cursor: pointer;
+    
+}
+
+.song:hover{
+    height:80px ;
+    width:80px ;
+    border-radius: 50%;
+    position: relative;
+   top: 5px;
+   left: 5px;
+   transition: 0.5s;
+   box-shadow: 0px 0px 0px #d7e3eb;
+   cursor: pointer;
+}
+
+.playbtn:hover{
+    background-color:#f5dffa;
+ }
+
+ .fav:hover{
+    background-color:#658ccf;
+    cursor: pointer;
+}
+
+.threeDots:hover{
+    background-color:#658ccf;
+    cursor: pointer;
 }
